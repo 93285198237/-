@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 import matplotlib.pyplot as plt
 
 # === Step 1: 导入原始数据 ===
-merged = pd.read_csv("merged_selected_data.csv")
+merged = pd.read_csv("merged_selected_data.csv")#改为自己的数据
 
 # 处理日期
 merged['Date'] = pd.to_datetime(merged['Date'])
